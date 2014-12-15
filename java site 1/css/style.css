@@ -1,16 +1,10 @@
 body {
-	overflow-y: scroll;
-	list-style-type:none;
-	overflow-y: scroll;
+	list-style-type: none;
 	font-family: Arial;
-    font-size: 17px;
-	overflow-y: scroll;
-	background-color:#fff;
-	margin-left:0px;
-	margin-top:0px;
-	overflow:hidden;
-	margin:0% 0% 0% 0%;
-	overflow:hidden;
+	font-size: 17px;
+	background-color: #000;
+	margin: 0% 0% 0% 0%;
+	overflow: hidden;
 }
 p {
 }
@@ -22,26 +16,27 @@ table, th, td {
 
 
 #Main {
-	position:relative;
+	position: static;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 17px;
 	font-style: normal;
 	line-height: normal;
-	background-color: #CCC;
+	background-color: #FFF;
 	width: 960px;
 	text-decoration: none;
 	list-style-type: none;
 	margin-left: auto;
 	margin-right: auto;
-	color:#fff;
-	height:auto;
-	width:960px;
-	padding-bottom:20px;
+	color: #000;
+	height: auto;
+	width: 960px;
+	padding: 4px;
+	opacity:50%;
 }
 
 #nav {
-	background-color: #222;
-	width: 1920px;
+	background-color: #0672EE;
+	width: 968px;
 	margin-right: auto;
 	margin-left: auto;
 	
@@ -56,10 +51,10 @@ table, th, td {
     display: inline-block;
 }
 #nav ul li:hover {
-    background-color: #333;
+    background-color: #0672EE;
 }
 #nav ul li a, visited {
-	color: #CCC;
+	color: #fff;
 	display: block;
 	padding: 15px;
 	text-decoration: none;
@@ -70,11 +65,11 @@ table, th, td {
 	position:absolute;
 }
 #nav ul ul {
-	z-index:+1;
+	z-index:+5;
     display: none;
     position: absolute;
-    background-color: #333;
-    border: 5px solid #222;
+    background-color: #0672EE;
+    border: 5px solid #99FFFF;
     border-top: 0;
 	margin-left: -5px;
 	border-radius: 3px;
@@ -86,37 +81,47 @@ table, th, td {
     color: #699;
 }
 
-
-
-h3 { 
-   position: absolute; 
-   top: 220px; 
-   left: 0; 
-   width: 100%; 
-   line height: 121px;
-}
-#slideshow { 
-    margin-left: auto; 
-	margin-right: 474px; 
-    position: relative; 
-    width: 500px; 
-    height: 250px;
-	padding-top:0px;
-    padding: 0px 10px 10px 10px; 
+#slideshow {
+	position:relative;
+	alignment-adjust:center;
+	width: 960px;
+	height:250px;
+	margin-left:25px;
    
 }
 
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+#slideshow > div {
+	position: absolute;
+	left: -50px;
+	top: 0px;
+	margin-left:25px;
 }
-#text {
+#header {
+	height: auto;
+	width: 968px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:center;
+}
+input {
+	background-color: #000;
+	left: auto;
+	right: auto;
+}
 
+#header img {
+	margin-right: auto;
+	margin-left: auto;
 }
 div{
-margin-left: 25px;
-   position: relative; 
+	position:relative;
 }
+
+#footer{
+	height: 50px;
+	width:968;
+}
+	
