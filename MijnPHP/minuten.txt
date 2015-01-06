@@ -1,0 +1,10 @@
+<html>
+<head><title>in welke catogorie val ik</title></head>
+<body>
+<form name= "catogorien" action= "cat.php" method="post">
+ <p>aantal minuten: <input type="text" name="minuten"/> </p>
+ <p><input type="submit" name="catogorie" value="Catogorie"
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?PHP
+include_once("youtube.php");
+
+
+$video = new youtube;
+
+$video->video = "http://www.youtube.com/watch?v=4tOZgRsd4NY&list=PL89F64888F166890D"; 
+
+$video->width = "320";
+$video->height="240";
+
+// playlist
+$youtube = $video->play_video();
+
+echo $youtube . "<hr>";
+
+// 1 video 
+$video->video="http://www.youtube.com/watch?v=uTA5bLxfvwo";
+
+$youtube = $video->play_video();
+
+echo $youtube;
+
+// shared link
+echo "<hr>";
+$video->width = "420";
+$video->height="315";
+
+$video->video="http://youtu.be/VRl2XFJ_tg4";
+$youtube = $video->play_video();
+
+echo $youtube;
+?>
