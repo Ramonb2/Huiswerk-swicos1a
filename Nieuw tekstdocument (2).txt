@@ -1,0 +1,7 @@
+<html>
+	<head>
+		<title>Hallo!</title>
+	</head>
+		<body>
+			<?php
+			$naam1 = 

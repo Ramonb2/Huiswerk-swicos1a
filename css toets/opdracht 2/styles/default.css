@@ -1,0 +1,24 @@
+/* dit is het style-sheet dat gebruikt moet worden bij de vragen*/
+
+/* zet hieronder de gevraagde style*/
+body header h1{   
+ font-style: italic;
+ }
+
+a:link{
+	text-decoration: none;
+}
+ article h1{
+ color:#ff0000;
+ }
+ body{
+font-family: times;
+font-size: 22px;
+font-style: normal;
+font-weight: 900;
+height: auto;
+list-style-type: circle;
+text-align: left;
+text-decoration: none solid rgb(0, 0, 0);
+width: auto;
+}

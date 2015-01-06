@@ -1,0 +1,14 @@
+Inlog robomind
+
+Brakels_Ramon/e.seldenthuis@gmail.com
+4rd86
+
+
+
+herhaal(6){
+pakop
+links(2)
+zetneer
+rechts
+achteruit
+rechts}

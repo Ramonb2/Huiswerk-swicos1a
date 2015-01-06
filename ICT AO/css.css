@@ -1,0 +1,31 @@
+#parel {
+    border-image: url(plaatje.png) 30 30 round;
+	border-image-width: 30px;
+	width:300px;
+}
+.loL {
+    text-align: center;
+    color: red;
+}
+a:link {
+    background: url();
+}
+
+a:visited {
+    background-color: #ffffff;
+}
+
+a:hover {
+    background-color: #FF704D;
+}
+
+a:active {
+    background-color: #FF704D;
+}
+#parel {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:300px;
+    float:left;
+    padding:5px; 

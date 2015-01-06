@@ -1,0 +1,11 @@
+/* dit is het style-sheet dat gebruikt moet worden bij de vragen*/
+
+/* zet hieronder de gevraagde style*/
+
+body header h1{
+    color: yellow;
+	border-image: url(ib.png);
+	border-image-width:30px;
+	}
+	
+	

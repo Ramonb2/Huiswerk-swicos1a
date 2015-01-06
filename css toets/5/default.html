@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Default format example</title>
+		<link rel="stylesheet" type="text/css" href="styles/default.css">
+	</head>
+	<body>
+		<header>
+			<h1>Some basic CSS definitions</h1>	
+		</header>
+		<nav id="nav">
+			<header>Content</header>
+			<ul id="menu">
+				<a href="#CSS Syntax" ><li>CSS Syntax</li></a>		
+				<a href="#CSS Selectors" ><li>CSS Selectors</li></a>		
+				<a href="#CSS Comment" ><li>CSS Comment</li></a>	
+				<a href="#CSS Example" ><li>CSS Example</li></a>	
+				<a href="#External Style Sheet" ><li>External Style Sheet</li></a>			
+			</ul>		
+		</nav>
+		<section>
+			<header>Articles</header>
+			<article id="CSS Syntax">
+				<h1>CSS Syntax</h1>
+				<p>A CSS rule set consists of a selector and a declaration block:<br />
+					<img src="./images/selector.gif" alt="CSS selectors en definitions"><br />
+					The selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons. Each declaration includes a property name and a value, separated by a colon.
+				</p>
+				<a href="#nav">Content</a>
+			</article>
+			<article id="CSS Selectors">
+				<h1>CSS Selectors</h1>
+				<p>CSS selectors allow you to select and manipulate HTML element(s). CSS selectors are used to "find" (or select) HTML elements based on their id, classes, types, attributes, values of attributes and much more.
+				</p>			
+				<a href="#nav">Content</a>
+			</article>		
+			<article id="CSS Comment">
+				<h1>CSS Comment</h1>
+				<p>Comments are used to explain your code, and may help you when you edit the source code at a later date. Comments are ignored by browsers. A CSS comment starts with /* and ends with */. Comments can also span multiple lines.
+				</p>			
+				<a href="#nav">Content</a>
+			</article>		
+			<article id="CSS Example">
+				<h1>CSS Example</h1>
+				<p>A CSS declaration always ends with a semicolon, and declaration groups are surrounded by curly braces:</p>
+				<code>p {color:red;text-align:center;}</code><br/>
+				<a href="#nav">Content</a>
+			</article>	
+			<article id="External Style Sheet">
+				<h1>External Style Sheet</h1>
+				<p>An external style sheet is ideal when the style is applied to many pages. With an external style sheet, you can change the look of an entire Web site by changing just one file. Each page must include a link to the style sheet with the <link> tag. The <link> tag goes inside the head section:</p>
+					<code>
+						&#60head&#62<br/>
+						&#60link rel="stylesheet" type="text/css" href="mystyle.css"&#62<br/>
+						&#60/head&#62
+					</code><br/>
+				<a href="#nav">Content</a>
+			</article>				
+		</section>
+		<footer>The content of this page is copied from <a href="http://www.w3schools.com"  target="new">http://www.w3schools.com</a></footer>
+	</body>
+</html>

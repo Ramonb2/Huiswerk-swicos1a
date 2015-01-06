@@ -1,0 +1,16 @@
+<HTML>
+     <HEAD>
+           <TITLE> Certificaten  </Title>
+     </HEAD>
+
+     <BODY>
+	 <H1> Certificaten   </H1>
+
+<a href="Index">Terug</a> <BR>
+<a href="Opl.html">Opleidingen</a> <BR>
+<a href="cert.html">Certificaties</a> <BR>
+
+
+     </BODY>
+
+</HTML>

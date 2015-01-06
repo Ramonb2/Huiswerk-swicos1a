@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style1.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn(2000);
+    $("#div2").fadeIn(2000);
+    $("#div3").fadeIn(2000);
+	$("#div4").fadeIn(2000);
+	$("#div1").animate({ height:'100px',width:'100px'}).animate({top:'-200px'},500);
+	$("#div2").animate({ height:'100px',width:'100px'}).delay(1000).animate({left:'-200px'},500);
+	$("#div3").animate({ height:'100px',width:'100px'}).delay(2000).animate({top:'2200px'},500).fadeOut();;
+	$("#div4").animate({ height:'100px',width:'100px'}).delay(3000).animate({left:'2200px'},500).fadeOut();
+;
+	
+	 
+  });
+});
+</script>
+</head>
+
+<body>
+<p><button>Laat ze vliegen</button></P>
+<br><br>
+<div id="div1" style="width:200px;height:200px;display:none;background-color:orange;"></div><br>
+<div id="div2" style="width:200px;height:200px;display:none;background-color:purple;"></div><br>
+<div id="div3" style="width:200px;height:200px;display:none;background-color:yellow;"></div><br>
+<div id="div4" style="width:200px;height:200px;display:none;background-color:red;"></div>
+
+
+</body>
+</html>

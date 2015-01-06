@@ -1,0 +1,18 @@
+body {	Background: #C0C0C0;
+font-family: Arial}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 270px;
+    background-color: #dddddd;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  setTimeout(function() {
+  $("#num1").animate({ opacity:'1', },750);
+  $("#num1").animate({ opacity:'0', },750);
+  },1);
+  setTimeout(function() {
+  $("#num2").animate({ opacity:'1', },750);
+  $("#num2").animate({ opacity:'0', },750);
+  },1500);
+  setTimeout(function() {
+  $("#num3").animate({ opacity:'1', },750);
+  $("#num3").animate({ opacity:'0', },750);
+  },3000);
+   setTimeout(function() {
+  $("#num4").animate({ opacity:'1', },750);
+  $("#num4").animate({ opacity:'0', },750);
+  },4500);
+  setTimeout(function() {
+  window.location.replace("home.html");
+   },5500);
+
+});
+</script>
+</head>
+<body>
+
+<div id="num1">
+<p>Welkom</p>
+</div>
+<div id="num2">
+<p>Op mijn</p>
+</div>
+<div id="num3">
+<p>Eigen</p>
+</div>
+<div id="num4">
+<p>Website</p>
+</div>
+
+</body>
+</html>

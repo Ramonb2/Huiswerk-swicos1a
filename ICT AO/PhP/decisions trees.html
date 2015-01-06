@@ -1,0 +1,37 @@
+<form name= "fruit" action= "dicisions trees.html" method="post">
+<fieldset>
+<legend>Selecteer je fruit</legend>
+<select name="kleur">
+  <option  value="kleur">kleur</option>
+  <option  value="rood">rood</option>
+  <option value="groen">groen</option>
+  <option value="geel">geel</option>
+</select>
+<select name="grote">
+  <option value="grote">grote</option>
+  <option value="groot">groot</option>
+  <option value="medium">medium</option>
+  <option value="klein">klein</option>
+</select >
+<select name="smaak">
+  <option value="smaak">smaak</option>
+  <option value="zuur">zuur</option>
+  <option value="zoet">zoet</option>
+</select>
+<select name="vorm">
+  <option value="vorm">vorm</option>
+  <option value="rond">rond</option>
+  <option value="dun">dun</option>
+</select>
+</fieldset
+
+<p><input type="submit" name="gem" value="klik" /></p>
+ </form>
+ 
+ <?php
+ $kleur = $_POST["kleur"];
+$grote = $_POST["grote"];
+$smaak = $_POST["smaak"];
+$vorm = $_POST["vorm"];
+
+echo $kleur

@@ -1,0 +1,25 @@
+Hoofdstuk 
+1 de wijzigingen worden meerdere keren doorgevoerd
+2 dat de gegevens meerdere keren word opgeslagen
+3 de mate van juistheid van de informatie die het infromatiesysteem produceert
+4 omzetten in een oud bestand naar een nieuw bestand
+5 als je  ding verander moet je alles veranderen
+6a de adres gegevens
+6b als iemand een ander adres opgeeft
+      als je iets gaat toevoegen zoals geslacht
+6c elkaar steeds gegevens aanpassingen doorgeven
+7 het is te duur
+8 moet worden omgezet
+
+Hoofdstuk 2
+1 in het dbms worden volledige gegevenstructuren van alle benodigde bestanden vastgelegd
+2 het data model dat op paier is ontworpen
+3 autorisatie
+4 dat je beperkte toegang heb
+5 het doorvoeren van verandereringen
+6 1 netwerk database
+  2 Relationele database
+  3 definitieve database
+7 kijken vanuit welke invalshoek gewerkt word
+8 dat 2 personen niet tegelijkertijd hetzelfde gegeven kunnen krijgen
+9 conceptueel 

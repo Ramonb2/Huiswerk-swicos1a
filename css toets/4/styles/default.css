@@ -1,0 +1,18 @@
+/* dit is het style-sheet dat gebruikt moet worden bij de vragen*/
+
+/* zet hieronder de gevraagde style*/
+body {
+    background-image:url("bga.png");
+    background-repeat: repeat-x;
+	backgroud-repeat: repeat-y;
+	
+}
+article{
+Background-color:#ffffff;
+transparent: 50%;
+}
+
+ nav ul li{ 
+background-color:#8040C0;
+
+}

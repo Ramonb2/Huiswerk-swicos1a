@@ -1,0 +1,74 @@
+#num1{
+width: 200px;
+height: 100px;
+background-color: orange;
+text-align: center;
+line-height: 100px;
+font-family: "Arial", Times, serif;
+opacity: 0;
+}
+#num2{
+width: 200px;
+height: 100px;
+background-color: blue;
+text-align: center;
+line-height: 100px;
+font-family: "Arial", Times, serif;
+margin-left: 200px;
+opacity: 0;
+}
+#num3{
+width: 200px;
+height: 100px;
+background-color: green;
+text-align: center;
+line-height: 100px;
+font-family: "Arial", Times, serif;
+margin-left: 400px;
+opacity: 0;
+}
+#num4{
+width: 200px;
+height: 100px;
+background-color: red;
+text-align: center;
+line-height: 100px;
+font-family: "Arial", Times, serif;
+margin-left: 600px;
+opacity: 0;
+}
+#img1{
+position: absolute;
+    left: 10px;
+    top: 10px;
+
+
+}
+
+
+#img2{
+
+position: absolute;
+    left: 1000px;
+    top: 10px;
+
+
+}
+
+
+#img3{
+
+position: absolute;
+    left: 10px;
+    top: 500px;
+
+}
+
+
+#img4{
+
+position: absolute;
+    left: 1000px;
+    top: 500px;
+
+}

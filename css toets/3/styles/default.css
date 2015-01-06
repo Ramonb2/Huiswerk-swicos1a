@@ -1,0 +1,19 @@
+/* dit is het style-sheet dat gebruikt moet worden bij de vragen*/
+
+/* zet hieronder de gevraagde style*/
+body {
+    border-style: dotted;
+    border-width: 2px;
+}
+ nav ul li{ 
+    border-style: solid;
+    border-width: 5px;
+	color:#ff0000;
+	border-radius: 30px;
+}
+ article{
+Border-style: solid;
+border-width: 1px;
+color: #000000;
+border-radius: 20px;
+}
