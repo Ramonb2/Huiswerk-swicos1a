@@ -1,0 +1,78 @@
+Logging in build 2014.1.1.6 started at: Sun Oct 26 20:13:35 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:14:24 2014
+
+Logging in build 2014.1.1.6 started at: Sun Oct 26 20:15:03 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:15:05 2014
+
+Logging in build 2014.1.1.6 started at: Sun Oct 26 20:15:53 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:15:57 2014
+
+Logging in build 2014.1.1.6 started at: Sun Oct 26 20:16:46 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:16:49 2014
+
+Logging in build 2014.1.1.6 started at: Sun Oct 26 20:20:38 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:20:47 2014
+
+Logging in build 2014.1.1.6 started at: Sun Oct 26 20:21:33 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:21:35 2014
+
+Logging in build 2014.1.1.6 started at: Sun Oct 26 20:22:51 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:22:54 2014
+
+Logging in build 2014.1.1.6 started at: Sun Oct 26 20:28:35 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:28:37 2014
+
+Logging in build 2014.0.0.328 started at: Sun Oct 26 20:32:55 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:33:00 2014
+
+Logging in build 2014.0.0.328 started at: Sun Oct 26 20:36:01 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:36:04 2014
+
+Logging in build 2014.0.0.328 started at: Sun Oct 26 20:36:59 2014
+========================================
+
+==========
+Logging ended at: Sun Oct 26 20:37:01 2014
+
+Build 314: Sun Oct 26 19:44:06 2014 UTC: Error:CHECKING:Invalid update descriptor file
+Build 314: Sun Oct 26 19:44:22 2014 UTC: Error: CSI: IMS: Fetch Account: Error Code: I-70 Error Message: Unable to retrieve account information (Note: this may not be an error)
+Build 314: Sun Oct 26 19:44:22 2014 UTC: Error: CSI: IMS: Connect: Error Code: I-200 Error Message: No Account
+Build 314: Sun Oct 26 19:44:22 2014 UTC: Unknown IMS error 'SHARED_NOACCT_ERROR' has occurred when retrieving IMS token.
+Build 314: Sun Oct 26 19:44:24 2014 UTC: WelcomeMgr:Error in processNewXML converting newly loaded welcome data to XML Error #1085: The element type "input" must be terminated by the matching end-tag "</input>".
+Build 314: Sun Oct 26 19:44:24 2014 UTC: AssertInDebug: Error in processNewXML converting newly loaded welcome data to XML Error #1085: The element type "input" must be terminated by the matching end-tag "</input>".-assertInDebugOnly+MuseWelcomeMgr/reportProblem+MethodInfo-552+EventDispatcher/dispatchEventFunction+EventDispatcher/dispatchEvent+MuseURLLoader/dispatchEvent+URLLoader/onComplete+end stack
+Build 314: Sun Oct 26 19:48:41 2014 UTC: Error: CSI: IMS: Fetch Account: Error Code: I-70 Error Message: Unable to retrieve account information (Note: this may not be an error)
+Build 314: Sun Oct 26 19:48:41 2014 UTC: Error: CSI: IMS: Connect: Error Code: I-200 Error Message: No Account
+Build 314: Sun Oct 26 19:48:41 2014 UTC: Unknown IMS error 'SHARED_NOACCT_ERROR' has occurred when retrieving IMS token.
+Build 314: Sun Oct 26 19:50:22 2014 UTC: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 314: Sun Oct 26 19:50:23 2014 UTC: Error: CSI: OOBE: Serial Number: Error Code: O-10 Error Message: Unable to retrieve the serial number (Note: this may not be an error)
+Build 314: Sun Oct 26 19:50:23 2014 UTC: AssertInDebug: License type changed from 2 to 1 while running-assertInDebugOnly+HeadlightsManager/setLicenseType+MuseHeadlightsManager/setLicenseType+CSIMgr/doContinueToMuseFinalize+CSIMgr/doContinueToMuse+CSIMgr/launchInTrialMode+CSIMgr/handleMBLActivateNoSub+EventDispatcher/dispatchEventFunction+EventDispatcher/dispatchEvent+MBLController/onLMSActivateNoSub+EventDispatcher/dispatchEventFunction+EventDispatcher/dispatchEvent+LMSConnector/onActivateComplete+EventDispatcher/dispatchEventFunction+EventDispatcher/dispatchEvent+MuseURLLoader/dispatchEvent
