@@ -1,32 +1,3 @@
-<html>
-
-<head>
- <link href="css/style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-<div id="header">Je Hoofd</div>
-<div id="nav">
-    <div id="nav_wrapper">
-        <ul>
-            <li><a href="index.html">Home</a>
-            </li>
-            <li> <a href="info.html">Info</a>
-            </li>
-            <li> <a href="gastenboek.php">Gastenboek</a>
-            </li>
-			<li> <a href="webshop.html">Webshop</a>
-            </li>
-            <li> <a href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </div>
-</div>
-<div id="main">qhdosgdiashdhasdgasdgasdfasdasdasasfa<br>
-weiukgfdkagdiasdyafsasdfasdgasdasdasdasdasdasdasdasd
-</div>
-<div id="footer"</div>
-</body>
-</html>
 <?php
 $servername = "127.0.0.1";
 $username = "root";
@@ -99,5 +70,5 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?></p>
 </form> 
-</body>
 </html>
+
