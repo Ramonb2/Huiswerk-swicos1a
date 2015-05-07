@@ -1,13 +1,35 @@
-<?php
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$dbname = "gastenboek";
+<html>
+
+<head>
+ <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">Gastenboek Ramon Brakels</div>
+<div id="nav">
+    <div id="nav_wrapper">
+        <ul>
+            <li><a href="login.php">inloggen</a>
+            </li>
+            <li> <a href="reg.php">registreren</a>
+            </li>
+            <li> <a href="gastenboek.php">Gastenboek</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="main"><?php
+include 'db_connect.php'; 
+include 'filter.php';
+if (isset($_POST['Submit'])) {
+
 $naam = "$_POST[Naam]";
 $bericht = "$_POST[bericht]";
 $Bericht1 =	 strip_tags($bericht);
 $Naam1 =	 strip_tags($naam);
-function strip_tags_content($Bericht, $tags = '', $invert = FALSE) { 
+$Bericht2 = breplace($Bericht1);
+
+
+function strip_tags_content($bericht, $tags = '', $invert = FALSE) { 
 
   preg_match_all('/<(.+?)[\s]*\/?[\s]*>/si', trim($tags), $tags); 
   $tags = array_unique($tags[1]); 
@@ -26,25 +48,22 @@ function strip_tags_content($Bericht, $tags = '', $invert = FALSE) {
   } 
   return $bericht; 
 }
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
 if (strlen($_POST['bericht']) < 10){
 	echo 'je bericht is te kort';}
 else{
 	$sql = "INSERT INTO berichten (naam, bericht, datum)
-	VALUES ('$Naam1', '$Bericht1', NOW())";
+	VALUES ('$Naam1', '$Bericht2', NOW())";
 
 	if ($conn->query($sql) === TRUE) {
     echo "uw bericht is succesvol geplaatst";
 	} else {
     echo "Error: " . $sql . "<br>" . $conn->error;
-	}}
+}}}
 ?>
 
 
 <html>
+<div id ='Gastenboek'>
 <p><b> Reageer: </b></p>
 <form name="form1" method="post" action="gastenboek.php"> 
 <p>
@@ -56,13 +75,16 @@ Naam: <input name="Naam" type="text" value""></p>
 </p>
 <p><b> Gastenboek Reacties: </b></p>
 <p >
-<?php $sql1 = "SELECT naam, datum, bericht FROM berichten";
+
+<?php
+include_once 'db_connect.php'; 
+$sql1 = "SELECT naam, datum, bericht FROM berichten";
 $result = $conn->query($sql1);
 
 if ($result->num_rows > 0) {
 
     while($row = $result->fetch_assoc()) {
-        echo "<table><tr> ". $row["naam"]. " 		<b> " . $row["datum"] ."</tr>  </b><br><tr>  <b>Bericht:</b> " . $row["bericht"] ."</tr><br></table> ";
+        echo "<table><tr> ". $row["naam"]. " 		<b> " . $row["datum"] ."</tr>  </b><br><tr>  <b>Bericht:</b> " . replace ($row["bericht"] )."</tr><br><br></table> ";
     }
 } else {
     echo "Geen berichten tot nu toe";
@@ -70,5 +92,8 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?></p>
 </form> 
+</div>
+</div>
+<div id="footer"</div>
+</body>
 </html>
-

@@ -1,33 +1,37 @@
 body {
-	background-image: url(../afbeeldingen/bg.jpg);
+	background-color : GREY;
 	background-size: cover;
 	background-repeat: none;
 	margin:0px;
-	font-family: Gill Sans Extrabold, sans-serif
+	font-family: Arial;
 }
 #Header {
 	height: 200px;
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color:#ff0342;
+	background-color:#FFFFF;
 	text-align: center;
 	font-size: 30px;
 }
 #main {
-	height: 800px;
+	height: auto;
 	width: 960px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#fff;
-	text-align: center;
+	text-align: left;
+}
+#gastenboek{
+margin: 10px;
+padding-top:5px;
 }
 #nav {
 	height: 50px;
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color:#f12312
+	background-color:#FF0F0F;
 }
 #nav_wrapper {
 	width: 1000px;
@@ -39,10 +43,10 @@ body {
     display: inline-block;
 }
 #nav ul li:hover {
-    background-color: #F54141;
+    background-color: #FF00F0;
 }
 #nav ul li a, visited {
-	color: #FFF;
+	color: #fff;
 	display: block;
 	padding: 15px;
 	text-decoration: none;

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>H02</label>
+	</settings>
+	<users>
+		<user>
+			<path>H02.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Vb0201\Vb0201.jcp</path>
+		</project>
+		<project>
+			<path>Vb0202\Vb0202.jcp</path>
+		</project>
+		<project>
+			<path>Vb0203\Vb0203.jcp</path>
+		</project>
+		<project>
+			<path>Vb0204\Vb0204.jcp</path>
+		</project>
+	</projects>
+</workspace>

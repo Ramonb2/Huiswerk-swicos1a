@@ -1,0 +1,19 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>H09</label>
+	</settings>
+	<users>
+		<user>
+			<path>H09.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Vb0902\Vb0902.jcp</path>
+		</project>
+		<project>
+			<path>Vb0901\Vb0901.jcp</path>
+		</project>
+	</projects>
+</workspace>

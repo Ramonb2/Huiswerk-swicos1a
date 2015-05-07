@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>H03</label>
+	</settings>
+	<users>
+		<user>
+			<path>H03.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Test\Test.jcp</path>
+		</project>
+		<project>
+			<path>Vb0301\Vb0301.jcp</path>
+		</project>
+		<project>
+			<path>Vb0302\Vb0302.jcp</path>
+		</project>
+		<project>
+			<path>Vb0303\Vb0303.jcp</path>
+		</project>
+		<project>
+			<path>Vb0304\Vb0304.jcp</path>
+		</project>
+		<project>
+			<path>Vb0305\Vb0305.jcp</path>
+		</project>
+		<project>
+			<path>Vb0306\Vb0306.jcp</path>
+		</project>
+		<project>
+			<path>Vb0306a\Vb0306a.jcp</path>
+		</project>
+		<project>
+			<path>Vb0307\Vb0307.jcp</path>
+		</project>
+		<project>
+			<path>Vb0308\Vb0308.jcp</path>
+		</project>
+	</projects>
+</workspace>

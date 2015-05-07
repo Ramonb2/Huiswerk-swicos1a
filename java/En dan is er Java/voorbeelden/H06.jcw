@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>H06</label>
+	</settings>
+	<users>
+		<user>
+			<path>H06.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Vb0600\Vb0600.jcp</path>
+		</project>
+		<project>
+			<path>Vb0601\Vb0601.jcp</path>
+		</project>
+		<project>
+			<path>Vb0602\Vb0602.jcp</path>
+		</project>
+		<project>
+			<path>Vb0603\Vb0603.jcp</path>
+		</project>
+	</projects>
+</workspace>

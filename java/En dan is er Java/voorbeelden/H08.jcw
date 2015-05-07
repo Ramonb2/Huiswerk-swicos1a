@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>H08</label>
+	</settings>
+	<users>
+		<user>
+			<path>H08.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Vb0801\Vb0801.jcp</path>
+		</project>
+		<project>
+			<path>Vb0802\Vb0802.jcp</path>
+		</project>
+		<project>
+			<path>Vb0803\Vb0803.jcp</path>
+		</project>
+		<project>
+			<path>Vb0804\Vb0804.jcp</path>
+		</project>
+		<project>
+			<path>Vb0805\Vb0805.jcp</path>
+		</project>
+		<project>
+			<path>Vb0806\Vb0806.jcp</path>
+		</project>
+	</projects>
+</workspace>

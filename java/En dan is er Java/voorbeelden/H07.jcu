@@ -1,0 +1,32 @@
+<?xml?>
+<workspace_user>
+	<active_project>
+		<label>SOKOBAN6</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>SOKOBAN6</label>
+			<showfiles>false</showfiles>
+		</project>
+		<project>
+			<label>SOKOBAN5</label>
+			<showfiles>false</showfiles>
+		</project>
+		<project>
+			<label>SOKOBAN4</label>
+			<showfiles>false</showfiles>
+		</project>
+		<project>
+			<label>SOKOBAN3</label>
+			<showfiles>false</showfiles>
+		</project>
+		<project>
+			<label>SOKOBAN2</label>
+			<showfiles>false</showfiles>
+		</project>
+		<project>
+			<label>SOKOBAN1</label>
+			<showfiles>false</showfiles>
+		</project>
+	</projects>
+</workspace_user>
