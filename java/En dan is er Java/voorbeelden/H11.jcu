@@ -1,0 +1,44 @@
+<?xml?>
+<workspace_user>
+	<active_project>
+		<label>Vb1103a</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Vb1102</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>Vb1102\src</path>
+			</folderitem>
+		</project>
+		<project>
+			<label>Vb1101</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>Vb1101\src</path>
+			</folderitem>
+		</project>
+		<project>
+			<label>Vb1103</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>Vb1103\src</path>
+			</folderitem>
+		</project>
+		<project>
+			<label>Vb1103a</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>Vb1103a\src</path>
+			</folderitem>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>Vb1103\src\Vb1103.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+</workspace_user>

@@ -1,0 +1,25 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>H11</label>
+	</settings>
+	<users>
+		<user>
+			<path>H11.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Vb1102\Vb1102.jcp</path>
+		</project>
+		<project>
+			<path>Vb1101\Vb1101.jcp</path>
+		</project>
+		<project>
+			<path>Vb1103\Vb1103.jcp</path>
+		</project>
+		<project>
+			<path>Vb1103a\Vb1103a.jcp</path>
+		</project>
+	</projects>
+</workspace>

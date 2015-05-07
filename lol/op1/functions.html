@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<p id="demo1"></p>
+getal kwadraad:<input id="kwadraat" name="Naam" type="text">
+<button onclick="kwadraat()">=</button>
+graden fahrenheit:<input id="graden" name="Naam" type="text">
+<button onclick="graden()">=</button>
+<div id="demo2"></div>
+
+<script>
+function kubus(h, b, l){
+	return h*b*l;	
+}
+document.getElementById("demo").innerHTML = kubus(50,50,50);
+
+function kwadraat() {
+	getal = parseInt(document.getElementById("getal").value);
+	
+    result = getal*getal;
+	
+	document.getElementById("demo2").innerHTML = result;
+}
+
+function graden(){
+var f = document.getElementById("graden").value;
+var celsius =(f - 32) / 1.8;
+}
+document.getElementById("demo2").innerHTML = celsius;
+</script>
+
+</body>
+</html>

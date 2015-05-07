@@ -1,0 +1,31 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>H07</label>
+	</settings>
+	<users>
+		<user>
+			<path>H07.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>..\..\UML\JCreator\H07\SOKOBAN6\SOKOBAN6.jcp</path>
+		</project>
+		<project>
+			<path>..\..\UML\JCreator\H07\SOKOBAN5\SOKOBAN5.jcp</path>
+		</project>
+		<project>
+			<path>..\..\UML\JCreator\H07\SOKOBAN4\SOKOBAN4.jcp</path>
+		</project>
+		<project>
+			<path>..\..\UML\JCreator\H07\SOKOBAN3\SOKOBAN3.jcp</path>
+		</project>
+		<project>
+			<path>..\..\UML\JCreator\H07\SOKOBAN2\SOKOBAN2.jcp</path>
+		</project>
+		<project>
+			<path>..\..\UML\JCreator\H07\SOKOBAN1\SOKOBAN1.jcp</path>
+		</project>
+	</projects>
+</workspace>

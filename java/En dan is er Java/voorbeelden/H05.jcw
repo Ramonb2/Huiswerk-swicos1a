@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>H05</label>
+	</settings>
+	<users>
+		<user>
+			<path>H05.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Vb0501\Vb0501.jcp</path>
+		</project>
+		<project>
+			<path>Vb0502\Vb0502.jcp</path>
+		</project>
+		<project>
+			<path>Vb0503\Vb0503.jcp</path>
+		</project>
+		<project>
+			<path>Vb0504\Vb0504.jcp</path>
+		</project>
+		<project>
+			<path>Vb0505\Vb0505.jcp</path>
+		</project>
+		<project>
+			<path>Vb0506\Vb0506.jcp</path>
+		</project>
+		<project>
+			<path>Vb0507\Vb0507.jcp</path>
+		</project>
+	</projects>
+</workspace>

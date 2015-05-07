@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>H04</label>
+	</settings>
+	<users>
+		<user>
+			<path>H04.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Test\Test.jcp</path>
+		</project>
+		<project>
+			<path>Vb0401\Vb0401.jcp</path>
+		</project>
+		<project>
+			<path>Vb0402\Vb0402.jcp</path>
+		</project>
+		<project>
+			<path>Vb0403\Vb0403.jcp</path>
+		</project>
+		<project>
+			<path>Vb0404\Vb0404.jcp</path>
+		</project>
+		<project>
+			<path>Vb0404a\Vb0404a.jcp</path>
+		</project>
+		<project>
+			<path>Vb0405\Vb0405.jcp</path>
+		</project>
+		<project>
+			<path>Vb0406\Vb0406.jcp</path>
+		</project>
+	</projects>
+</workspace>

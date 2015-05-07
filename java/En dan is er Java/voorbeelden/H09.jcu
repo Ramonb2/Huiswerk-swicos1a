@@ -1,0 +1,45 @@
+<?xml?>
+<workspace_user>
+	<active_project>
+		<label>Vb0902</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Vb0902</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>Vb0902\classes</path>
+			</folderitem>
+			<folderitem>
+				<path>Vb0902\src</path>
+			</folderitem>
+		</project>
+		<project>
+			<label>Vb0901</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>Vb0901\src</path>
+			</folderitem>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>Vb0902\src\Vb0902.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>Vb0902\src\Rechthoek.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>true</active>
+		</docitem>
+		<docitem>
+			<path>Vb0902\src\FlexRechthoek.java</path>
+			<source>true</source>
+			<index>2</index>
+			<active>false</active>
+		</docitem>
+	</open_files>
+</workspace_user>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>H12</label>
+	</settings>
+	<users>
+		<user>
+			<path>H12.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Vb1201\Vb1201.jcp</path>
+		</project>
+		<project>
+			<path>Vb1202\Vb1202.jcp</path>
+		</project>
+		<project>
+			<path>Vb1203\Vb1203.jcp</path>
+		</project>
+		<project>
+			<path>Vb1204\Vb1204.jcp</path>
+		</project>
+		<project>
+			<path>Vb1205\Vb1205.jcp</path>
+		</project>
+		<project>
+			<path>Vb1206\Vb1206.jcp</path>
+		</project>
+		<project>
+			<path>Vb1207\Vb1207.jcp</path>
+		</project>
+		<project>
+			<path>Vb1208\Vb1208.jcp</path>
+		</project>
+	</projects>
+</workspace>

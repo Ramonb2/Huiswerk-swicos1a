@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script type"text/javascript">
+function graden(){
+ var f = document.getElementById("graden").value;
+ var celsius =((f - 32) / 1.8);
+}
+document.getElementById("demo").innerHTML = celsius;
+</script>
+<p id="demo"></p>
+graden:<input id="graden" name="Naam" type="text">
+<button onclick="graden()">=</button>
+
+</body>
+</html>
