@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript opdracht 1</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script src="js/Opdracht3.js"></script>
+	</head>
+	
+	<body>
+		<div id="calculator">
+			<h2>Calculator</h2>
+			<input type="number" min="0" id="inputA">
+			<span>+</span>
+			<input type="number" min="0" id="inputB">
+			<input type="radio" name="method" id="+">+</input>
+			<input type="radio" name="method" id="-">-</input>
+			<input type="radio" name="method" id="*">*</input>
+			<input type="radio" name="method" id="/">/</input>
+			<select>
+				<option id="heel">Heel</option>
+				<option id="komma">Komma</option>
+			</select>
+			<button onclick="sum()">=</button>
+			<div id="result"></div>
+		</div>
+	</body>
+</html>
