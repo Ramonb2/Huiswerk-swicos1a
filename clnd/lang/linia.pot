@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Linia Wordpress Blog Theme\n"
+"POT-Creation-Date: 2014-02-15 13:58+0200\n"
+"PO-Revision-Date: 2014-02-15 13:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: Burak Aydin <burak_sdu@outlook.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:29
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../archive.php:11
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../author-bio.php:20
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../author.php:11
+msgid "Author Posts"
+msgstr ""
+
+#: ../category.php:11
+msgid "Category Posts"
+msgstr ""
+
+#: ../comments.php:9 ../content-aside.php:14 ../content-audio.php:14
+#: ../content-image.php:10 ../content-video.php:15 ../content.php:10
+#: ../single.php:24
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comment ( 1 )"
+msgstr ""
+
+#: ../comments.php:9
+msgid "Comments ( % )"
+msgstr ""
+
+#: ../comments.php:27
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:28
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:29
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-aside.php:14 ../content-audio.php:14 ../content-image.php:10
+#: ../content-video.php:15 ../content.php:10 ../single.php:24
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-aside.php:14 ../content-audio.php:14 ../content-image.php:10
+#: ../content-video.php:15 ../content.php:10 ../single.php:24
+msgid "% Comments"
+msgstr ""
+
+#: ../content-aside.php:16 ../content-audio.php:16 ../content-image.php:12
+#: ../content-video.php:17 ../content.php:12 ../single.php:26
+msgid "Edit"
+msgstr ""
+
+#: ../content-image.php:21 ../content.php:21
+msgid "You should add post image"
+msgstr ""
+
+#: ../content-image.php:27 ../content.php:27
+msgid "Read Article"
+msgstr ""
+
+#: ../content-none.php:5
+msgid "No posts found"
+msgstr ""
+
+#: ../content-none.php:11
+msgid "Return"
+msgstr ""
+
+#: ../content-none.php:11
+msgid "Home"
+msgstr ""
+
+#: ../footer.php:12
+msgid "Footer Logo"
+msgstr ""
+
+#: ../footer.php:17
+msgid "Theme by"
+msgstr ""
+
+#: ../footer.php:19
+msgid "Powered by"
+msgstr ""
+
+#: ../footer.php:25
+msgid "Copyright &copy; 2014"
+msgstr ""
+
+#: ../footer.php:25
+msgid "All Rights Reserved."
+msgstr ""
+
+#: ../functions.php:102
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:103
+msgid "Mobile Top Menu"
+msgstr ""
+
+#: ../functions.php:183
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:212
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../functions.php:213
+msgid "This sidebar is located right side."
+msgstr ""
+
+#: ../search.php:11
+msgid "Search Results for"
+msgstr ""
+
+#: ../tag.php:11
+msgid "Tag Posts"
+msgstr ""
+
+#: ../inc/back-compat.php:41 ../inc/back-compat.php:53
+#: ../inc/back-compat.php:68
+#, php-format
+msgid ""
+"Linia requires at least WordPress version 3.6. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""

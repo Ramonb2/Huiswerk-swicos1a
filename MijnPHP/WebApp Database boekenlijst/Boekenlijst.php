@@ -1,0 +1,88 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Boekenlijst</title>
+<style type="text/css">
+body,td,th {
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+body {
+	background-color: #666;
+}
+.lol {
+	font-size: 0px;
+}
+</style>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<?php
+$servername = "127.0.0.1";
+$username = "root";
+$password = "";
+$dbname = "portfolio";
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+ $sql1 = "SELECT * FROM `boeken` ORDER BY `boeken`.`naam` DESC";
+$result = $conn->query($sql1);
+
+?>
+<div id= Header><img src="afbeeldingen/Untitled-1.jpg" width="960" height="200" />                       
+</div>
+
+<div id="nav">
+    <div id="nav_wrapper">
+        <ul>
+            <li><a href="index.html">Home</a>
+            </li>
+            <li> <a href="Hobby.html">Hobby's</a>
+            </li>
+            <li> <a href="RSG.html">Opleiding</a>
+
+                <ul>
+                    <li><a href="RSG.html">Rsg Ter Apel</a>
+                    </li>
+                    <li><a href="dc.html">Drenthe College </a>                    
+                   	</li>
+                </ul>
+            </li>
+            <li> <a href="cert.html">Certificaten</a>
+            </li>
+			<li> <a href="rooster.html">Rooster</a>
+            </li>
+            <li> <a href="contact.html">Contact</a>
+            </li>
+
+        </ul>
+    </div>
+</div>
+<!-- Nav end -->
+<div id="Main">
+<table>
+<tr> <th width='764px' height='25px'>Naam</th>
+						 	<th width='154'>ISBN</th>
+									<th width='112'>Afbeelding</th>
+<?php								
+if ($result->num_rows > 0) {
+
+    while($row = $result->fetch_assoc()) {
+        echo "
+ <tr><td>". $row["naam"]."</td><td>" . $row["ISBN"] ."</td><td>" . $row["Afbeelding"] ."</td></tr>";
+    }
+} 
+$conn->close();
+
+
+?>
+</table>
+  
+<span class="lol">.</span>  
+
+</body>
+</html>

@@ -1,13 +1,5 @@
 <head>
-<style>
-Body{
-	font-align: center;
-	font-family: 'Roboto Condensed', sans-serif;
-	background-color: #F1F1F1;
-	text-align: center;
-        font-weight: bolder;
-}
-</style>
+
 </head>
 <body>
 

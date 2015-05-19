@@ -1,0 +1,33 @@
+== 1.2.0 ==
+
+Added : Theme url
+Added : Theme title on header and footer
+
+Changed : Theme description
+
+Fixed : Image view 
+Fixed : Some CSS issue
+
+Removed : Logo uploading
+
+
+
+== 1.1.3 ==
+
+-Added : Yearly and daily features in archive.php
+-Added : CSS3 ::selection selector for Mozilla Browser
+-Added : Public query variable below page.
+-Added : Theme customization for logo images.
+
+-Changed : Author URI
+-Changed : Theme description
+
+-Fixed : Rather than using &nbsp; used CSS
+-Fixed : Properly escaped home_url() function, like so: esc_url( home_url() )
+-Fixed : Displaying date and copyright
+-Fixed : wp_link_pages() function overflowing the articles border line
+
+-Removed : Unnecessary slash in post formats. 
+-Removed : if(!function_exists('dynamic_sidebar') in sidebar.php
+-Removed : Appearing outline when click the search box.
+-Removed : When disabling comments, 'No comments' expression in single.php
